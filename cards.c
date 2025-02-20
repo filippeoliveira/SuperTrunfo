@@ -296,7 +296,17 @@ void cards {
             cards32.pib = 20000000.0;
             cards32.pontosTuristicos = 50;
             
-
-    
-    
 };
+
+void print {
+
+    printf(" Vamos Jogar !!!!\n" );
+    printf("Cartão 1: \n");
+    printf("codigoCarta: %s\n" cards2.codigoCarta);
+    printf("nomeCidade: %s\n" cards2.nomeCidade);
+    printf("populacao: %s\n" cards2.populacao);
+    printf("area: %s\n" cards2.area);
+    printf("pib: %s\n" cards2.pib);
+    printf("pontosTuristicos: %s\n" cards2.pontosTuristicos);
+}
+    
