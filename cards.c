@@ -298,7 +298,7 @@ void cards {
             
 };
 
-void print {
+void print() {
 
     printf(" Vamos Jogar !!!!\n" );
     printf("Cartão 1: \n");
